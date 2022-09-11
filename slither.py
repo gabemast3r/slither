@@ -226,7 +226,7 @@ def gameLoop():
                     
         gameDisplay.fill(white)
 
-         gameDisplay.blit(appleimg, (randAppleX, randAppleY))
+        gameDisplay.blit(appleimg, (randAppleX, randAppleY))
         
         snakeHead = []
         snakeHead.append(lead_x)
